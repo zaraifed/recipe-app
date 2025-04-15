@@ -19,7 +19,7 @@ function Recipe() {
     return (
         <div className='recipe'>
             <button id='back-button' onClick={() => navigate('/')}>
-                <img id='back' src='/src/assets/house.png' />
+                <img id='back' src='/recipe-app/assets/house.png' />
             </button>
             <h2>Vanilla Cake</h2>
             <ul>
