@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  background-image: url('/src/assets/sparkle.gif');
+  background-image: url('/recipe-app/src/assets/sparkle.gif');
   background-size: cover;
 
   display: flex;

@@ -1,5 +1,4 @@
 {
-  "homepage": "https://zaraifed.github.io/recipe-app",
   "name": "recipe-app",
   "private": true,
   "version": "0.0.0",
@@ -12,6 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
+  "homepage": "https://zaraifed.github.io/recipe-app",
   "dependencies": {
     "gh-pages": "^6.3.0",
     "react": "^19.0.0",
