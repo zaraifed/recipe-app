@@ -1,13 +1,14 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import Timer from './Timer'
+import house from '../assets/house.png'
 
 function Recipe() {
     const navigate = useNavigate()
 
     const [checked, setChecked] = useState(Array(7).fill(false))
     const ingredients = ["1 egg", "3 tbsp milk", "1 tbsp oil", "4 tbsp granulated sugar",
-    "Pinch of salt", "Dash of vanilla extract", "1/4 + 2 tbsp self-raising flour"]
+    "Pinch of salt", "Dash of vanilla extract", "1/4 cup + 2 tbsp self-raising flour"]
 
     const toggleCheck = (index) => {
         const updated = [...checked] // copies contents of array into the new updated array
@@ -19,7 +20,7 @@ function Recipe() {
     return (
         <div className='recipe'>
             <button id='back-button' onClick={() => navigate('/')}>
-                <img id='back' src='/recipe-app/assets/house.png' />
+                <img id='back' src={house} alt="House" />
             </button>
             <h2>Vanilla Cake</h2>
             <ul>
