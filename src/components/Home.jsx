@@ -8,7 +8,7 @@ function Home() {
     return (
         <div className='home'>
             <h1>Let's cook!</h1>
-            <img id='pudding' src={pudding} alt="House" />
+            <img id='pudding' src={pudding} alt="Pudding" />
             <button onClick={() => navigate('/recipe')}>Vanilla Cake</button>
         </div>
     )
